@@ -1,7 +1,7 @@
-const vijay = document.getElementById("vijay")
+var vijay = document.getElementById("vijay")
 
-const setVijayColor = () => {
-    vijay.style.color = `hsl(${Math.random() * 360},100%,50%)`
+function setVijayColor() {
+    vijay.style.color = "hsl(" + String(Math.random() * 360) + ",100%,50%)"
 }
 
 setVijayColor()
