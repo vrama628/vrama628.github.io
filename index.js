@@ -15,4 +15,4 @@ function changeVijay() {
 }
 
 changeVijay()
-setInterval(changeVijay, 100)
+setInterval(changeVijay, 50)
