@@ -1,12 +1,12 @@
 var vijay = document.getElementById("vijay")
 
-function randomColor() {
+function randColor() {
     return "hsl(" + String(Math.random() * 360) + ",100%,50%)"
 }
 
-function setVijayColor() {
-    vijay.style.color = randomColor()
+function changeVijay() {
+    vijay.style.color = randColor()
 }
 
-setVijayColor()
-setInterval(setVijayColor, 100)
+changeVijay()
+setInterval(changeVijay, 100)
